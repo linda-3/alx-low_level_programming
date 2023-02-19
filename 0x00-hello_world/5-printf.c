@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - a program that prints a line using printf
- * return: 0 (Success)
+ * main - Prints the size of various computer types
+ * Return:  0 (Success)
  */
 
 int main(void)
