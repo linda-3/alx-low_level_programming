@@ -6,15 +6,16 @@
  * main - Print the alphabet without q and e.
  * Return: 0 (Success)
  */
-
 int main(void)
 {
 	int i;
-	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	for (i = 0; i < 52; i++)
+	for (i = 80; i < 106; i++)
 	{
-		putchar(alp[i]);
+		if (i != 85 && i != 96)
+		{
+			putchar(i);
+		}
 	}
 	putchar('\n');
 	return (0);
