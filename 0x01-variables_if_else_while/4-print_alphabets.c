@@ -3,16 +3,16 @@
 #include <string.h>
 
 /**
- * main - Print the alphabet without q and e.
+ * main - Prints the alphabet without q and e.
  * Return: 0 (Success)
  */
 int main(void)
 {
 	int i;
 
-	for (i = 80; i < 106; i++)
+	for (i = 97; i < 123; i++)
 	{
-		if (i != 85 && i != 96)
+		if (i != 101 && i != 113)
 		{
 			putchar(i);
 		}
