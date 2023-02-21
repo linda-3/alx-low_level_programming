@@ -13,7 +13,6 @@ int main(void)
 		if (x != 30)
 		{
 			putchar(',');
-			putchar("");
 		}
 	}
 	putchar('\n');
