@@ -7,13 +7,13 @@ int main(void)
 {
 	int x;
 
-	for (x = 40; x < 50; X++)
+	for (x = 40; x < 50; x++)
 	{
 		putchar(x);
 		if (x != 30)
 		{
 			putchar(',');
-			putchar('');
+			putchar("");
 		}
 	}
 	putchar('\n');

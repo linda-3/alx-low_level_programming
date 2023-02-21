@@ -8,7 +8,7 @@ int main(void)
 {
 	int x, y;
 
-	for (x = 30; X <= 39; x++)
+	for (x = 30; x <= 39; x++)
 	{
 		for (y = 31; y <= 39; y++)
 		{
@@ -19,7 +19,6 @@ int main(void)
 				if (x != 38 | y != 39)
 				{
 					putchar(',');
-					putchar('');
 				}
 			}
 		}
