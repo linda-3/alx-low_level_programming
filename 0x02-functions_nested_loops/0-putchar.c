@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * written by Linda
  * main - print _putchar
- * Return: 0 (Success)
+ * written by Linda
+ * Return: 0
  */
 int main(void)
 {
@@ -15,6 +15,5 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('\n');
 	return (0);
 }
